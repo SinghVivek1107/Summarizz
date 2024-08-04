@@ -7,7 +7,7 @@ function Hero() {
         <img src={logo} alt="summarizz" className="w-28 object-contain" />
         <button
           type="button"
-          onClick={() => window.open("https://github.com/SinghVivek1107")}
+          onClick={() => window.open("https://github.com/SinghVivek1107/Summarizz")}
           className="black_btn"
         >
           Github
