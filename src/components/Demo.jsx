@@ -9,6 +9,7 @@ const Demo = () => {
   });
   const [allArticles, setAllArticles] = useState([]);
   const [copied, setCopied] = useState("");
+  const [showClearButton, setShowClearButton] = useState(false);
 
   // RTK lazy query
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery();
@@ -88,7 +89,7 @@ const Demo = () => {
             type="submit"
             className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700 "
           >
-            <p>↵</p>
+            ↵
           </button>
         </form>
 

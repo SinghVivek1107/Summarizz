@@ -4,7 +4,7 @@ function Hero() {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
-        <img src={logo} alt="summarizz" className="w-28 object-contain" />
+        <img src={logo} alt="summarizz" className="w-20 object-contain" />
         <button
           type="button"
           onClick={() => window.open("https://github.com/SinghVivek1107/Summarizz")}
@@ -15,7 +15,7 @@ function Hero() {
       </nav>
 
       <h1 className="head_text">
-        Rizz  Articles with <br className="max-md:hiden" />
+        Summarize Long Articles with <br className="max-md:hiden" />
         <span className="orange_gradient">AI</span>
       </h1>
       <h2 className="desc">
